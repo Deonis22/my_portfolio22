@@ -1,11 +1,55 @@
 body {
-    background: #222;
-    color: white;
-    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
     text-align: center;
-    padding-top: 50px;
+    box-shadow: 0 10px 25px rgba(0, 255, 204, 0.15);
+    border: 1px solid #333;
+    max-width: 400px;
 }
 
 h1 {
     color: #00ffcc;
+    margin: 0 0 10px 0;
+    font-size: 32px;
+}
+
+.subtitle {
+    color: #888;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills li {
+    background: #2a2a2a;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.skills li:hover {
+    background: #00ffcc;
+    color: #121212;
+    border-color: #00ffcc;
 }
